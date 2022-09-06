@@ -1,0 +1,108 @@
+
+
+body {
+    background-color: #674BAF;
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    margin: 3% 5%;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    padding: 2% 0;
+    line-height: 1.5;
+}
+
+/* .container-fluid{
+    padding: 3% 15% 7%;
+  }   */
+
+.row-main {
+    padding: 1% 1%;
+}
+
+#main {
+    padding: 3% 0;
+}
+
+.images-brand {
+    width: 100%;
+    height: auto;
+}
+
+.description-col {
+    padding: 5%;
+}
+
+#footer {
+    text-align: right;
+    padding-right: 6%;
+}
+
+.icon {
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.icon:hover {
+    color: #E882E8;
+}
+
+.btn {
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    color: #674BAF;
+    border-style: none;
+    width: 30%;
+    height: 15%;
+}
+
+.btn:hover {
+    background-color: #E882E8;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1000px) {
+
+    body {
+        background-color: #674BAF;
+        background-image: url("../images/bg-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .description-col {
+        text-align: center;
+    }
+
+    #main {
+        padding: 5% 0;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    .btn {
+        width: 60%;
+        height: 20%;
+    }
+
+}
+
+/* 
+	#674baf - violet
+    #e882e8 - Soft Magenta
+    font-family: 'Open Sans', sans-serif;
+*/
